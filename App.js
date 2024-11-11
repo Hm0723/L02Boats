@@ -5,7 +5,7 @@ import {View, Text} from 'react-native';
 const App = () => {
   return (
     <View>
-      <Text style={{fontWeight:'bold', textAlign:'center', color:'black', fontSize:24, borderWidth:3}}>
+      <Text style={{fontWeight:'bold', textAlign:'center', color:'black', fontSize:24, borderWidth:2}}>
         GetABoat - For Sale
       </Text>
       <AllBoats />
