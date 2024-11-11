@@ -1,10 +1,19 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import Boat from './Boats';
+
+
+const styles = StyleSheet.create({
+  container: {
+    paddingVertical: 10,
+    backgroundColor: '#EFEFEF',
+  },
+});
+
 
 const AllBoats = () => {
   return (
-    <ScrollView>
+    <ScrollView contentContainerStyle={styles.container}>
       <Boat
         name="Sea Ray 500 Sundancer"
         description="Contoured lines and dramatic styling reveal a refined and powerful presence that will take your breath away."
